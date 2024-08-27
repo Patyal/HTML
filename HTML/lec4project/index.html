@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Table and Form</title>
+</head>
+<body>
+    <!-- 1st Question -->
+    <h2>1st Question Output</h2>
+    <table border="2px">
+        <thead>
+            <th colspan="6">Time Table</th>
+            
+        </thead>
+        <tbody>
+            <tr style="font-weight: bold;">
+                <td rowspan="6">Hours</td>
+                <td>Mon</td>
+                <td>Tue</td>
+                <td>Wed</td>
+                <td>Thu</td>
+                <td>Fri</td>
+            </tr>
+            <tr>
+                <td>Science</td>
+                <td>Maths</td>
+                <td>Science</td>
+                <td>Maths</td>
+                <td>Arts</td>
+            </tr>
+            <tr>
+                <td>Social</td>
+                <td>History</td>
+                <td>English</td>
+                <td>Social</td>
+                <td>Sports</td>
+            </tr>
+
+            <tr>
+                <td colspan="5" align="center" style="font-weight: bold;">LUNCH</td>
+            </tr>
+
+            <tr>
+                <td>Science</td>
+                <td>Maths</td>
+                <td>Science</td>
+                <td>Maths</td>
+                <td rowspan="2">Project</td>
+            </tr>
+
+            <tr>
+                <td>Social</td>
+                <td>History</td>
+                <td>English</td>
+                <td>Social</td>
+            </tr>
+
+        </tbody>
+    </table>
+
+
+
+    <!-- 2nd Question -->
+
+    <h2>2nd Question Output</h2>
+
+    <table border="2px" height="500px" width="50%" cellpadding="15px">
+        <thead>
+            <th>A</th>
+            <th>B</th>
+            <th>C</th>
+            <th>D</th>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td rowspan="2" align="right" valign="bottom">1</td>
+                <td align="right">2</td>
+                <td align="right">3</td>
+                <td align="right">4</td>
+            </tr>
+
+            <tr>
+                <td colspan="2">5</td>
+                <td>6</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr align="center">
+                <td>END</td>
+                <td>END</td>
+                <td>END</td>
+                <td>END</td>
+            </tr>
+        </tfoot>
+
+    </table>
+
+    <h2>3rd Question</h2>
+
+    <table border="2px" cellpadding="15px">
+        <thead>
+            <th>Name</th>
+            <th>Assigned To</th>
+            <th>Due Date</th>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Task</td>
+                <td>Tyler Zika</td>
+                <td>6/06/2016</td>
+                <td>High Priority</td>
+                <td> <input type="button" value="New"> <input type="button" value="Edit"> <input type="button" value="Delete">  </td>    
+            </tr>
+
+            <tr>
+                <td><input type="checkbox">Sub-task 1 <br> Description about sub task</td>
+                <td rowspan="2"></td>
+                <td>5/20/2016</td>
+                <td>High Priority</td>
+                <td> <input type="button" value="Edit"> <input type="button" value="Delete">  </td> 
+            </tr>
+
+            <tr>
+                <td><input type="checkbox">Sub-task 2 <br> Description about second sub task</td>
+                <td>5/20/2016</td>
+                <td>High Priority</td>
+                <td> <input type="button" value="Edit"> <input type="button" value="Delete">  </td> 
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>4th Question</h2>
+
+
+    <table border="2px">
+
+        <tbody>
+
+
+            <tr>
+                <td>Student name:</td>
+                <td>Date</td>
+                <td rowspan="2">Score</td>
+                <td rowspan="2">Self-evaluation</td>
+                <td rowspan="2">Group evaluation</td>
+                <td rowspan="2">Teacher evaluation</td>
+            </tr>
+            
+        
+            <tr>
+                <td>Project name</td>
+                <td>Evaluation Content</td>
+                
+            </tr>
+            <tr>
+                <td>Theoretical knowledge</td>
+                <td>Contents of class note</td>
+                <td>Precondition</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+
+            <tr>
+                <td rowspan="5">Professional quality 40%</td>
+                <td>Dressing</td>
+                <td>5 points</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+
+            <tr>
+                <td>Safety awareness, sense of responsibility</td>
+                <td>8 points</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+
+            <tr>
+                <td>Enthusiasm in participating teaching activities</td>
+                <td>10 points</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+
+            <tr>
+                <td>Team cooperation ability</td>
+                <td>10 points</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>On-side 65 standards</td>
+                <td>7 points</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+
+            <tr>
+                <td rowspan="5">Professional ability 60%</td>
+                <td>10 points</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+
+            <tr>
+                <td>Equipment operation standards</td>
+                <td>10 points</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+
+            <tr>
+                <td>Fault analysis method</td>
+                <td>15 points</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+
+            <tr>
+                <td>Fault diagnosis process</td>
+                <td>15 points</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+
+
+            <tr>
+                <td>Fault repair process</td>
+                <td>10 points</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+
+            <tr>
+                <td colspan="3" align="center">Total</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+
+            <tr>
+                <td>General comments</td>
+                <td colspan="3">Self-evaluation (20%)+ mutual evaluation (20%) + teacher evaluation (69%)</td>
+                <td>Overall result</td>
+            </tr>
+            
+
+        </tbody>
+          
+    </table>
+
+
+    <!-- 5th Question Output -->
+    <h2>5th Question Output</h2>
+
+    <form action="#">
+        <label for="firstn">FIRST NAME:</label>
+        <input type="text" id="firstn" name="firstn">
+
+
+        <label for="middlename">MIDDLE NAME:</label>
+        <input type="text" id="middlename" name="middlename">
+        <br>
+        <label for="lastn">LAST NAME:</label>
+        <input type="text" id="lastn" name="lastn">
+        <br>
+        <label for="address">ADDRESS:</label>
+        <textarea name="address" id="address" cols="50" rows="3"></textarea>
+        <br>
+        <label for="city">CITY:</label>
+        <input type="text" name="city" id="city">
+        <br>
+        <label for="state">STATE:</label>
+        <input type="text" name="state" id="state">
+        
+        <label for="zip">ZIP:</label>
+        <input type="text" name="zip" id="zip">
+        <br>
+        <label for="pnumber">PHONE NUMBER:</label>
+        <input type="text" name="pnumber" id="pnumber">
+        <br>
+        <label for="comments">COMMENTS:</label>
+        <textarea name="comments" id="comments" cols="50" rows="3"></textarea>
+        <br>
+        <input type="reset" name="clear" id="clear" value="CLEAR">
+        <input type="submit" value="Submit" name="submit">
+        
+
+    </form>
+</body>
+</html>

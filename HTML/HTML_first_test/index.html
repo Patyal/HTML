@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First Test</title>
+</head>
+<body>
+
+
+    <h2>Question 37</h2>
+
+    <table border="2px solid black">
+        <thead>
+            <th colspan="4">Purchased Equipments</th>
+        </thead>
+        <tbody>
+            <tr style="font-weight: bold;">
+                <td rowspan="2">Item No</td>
+                <td rowspan="2">Item Image</td>
+                <td>Description</td>
+                <td>Price</td>
+            </tr>
+            <tr style="font-weight: bold;">
+                <td>Shipping</td>
+                <td>Expanse</td>
+            </tr>
+            <tr>
+                <td rowspan="2">1</td>
+                <td rowspan="2" align="center">image</td>
+                <td>IBM</td>
+                <td>$400</td>
+            </tr>
+
+            <tr>
+                <td>Shipping</td>
+                <td>$40</td>
+            </tr>
+            <tr>
+                <td colspan="3" align="center">Total cost</td>
+                <td>$440</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Question 38</h2>
+
+    <table>
+            <caption>Timetable</caption>
+            <tbody>
+
+            </tbody>
+    </table>
+
+    <h2>Question 39 a</h2>
+    
+
+    <table border="1px" style="border-collapse: collapse;">
+        <thead>
+            <th>Science</th>
+            <th>Commerce</th>
+            <th>Humanities</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td><ol type="A">
+                    <li>Physic</li>
+                    <li>Chemistry</li>
+                    <li>Math</li>
+                    <li>Biology</li>
+                </ol></td>
+
+                <td>
+                    <ul>
+                        <li>Accounting</li>
+                        <li>Managements</li>
+                        <li>Finance</li>
+                        <li>Statistic</li>
+                    </ul>
+                </td>
+
+                <td>
+                    <ol type="I">
+                        <li>History</li>
+                        <li>Islamic history</li>
+                        <li>Home Science</li>
+                        <li>Economics</li>
+                    </ol>
+                </td>
+            </tr>
+
+        </tbody>
+    </table>
+
+    <h2>Question 39 b</h2>
+
+    <table border="1px" style="height: 400px; width: 40%; border-collapse: collapse;">
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td rowspan="2">4</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td colspan="2" rowspan="2">6</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>8</td>
+            </tr>
+            <tr>
+                <td colspan="2">9</td>
+                <td>10</td>
+                <td>11</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Question 39 C</h2>
+    <table border="1px" style="border-collapse: collapse; ">
+        <tbody>
+            <tr>
+                <td >MIS 345</td>
+                <td rowspan="3">YUCW</td>
+                <td>Principles of E-Commerce</td>
+            </tr>
+            <tr>
+                <td>Name: Your Name</td>
+                <td>Midterm mark: 24/25</td>
+            </tr>
+
+            <tr>
+                <td>Specialization: Your specialization</td>
+                <td>Final mark: 32/35</td>
+            </tr>
+        </tbody>
+    </table>
+
+
+    <h2>Question 41</h2>
+
+    <form action="#">
+        <h2>Travel reservation form</h2>
+        <p><b>* denotes manadotory</b></p>
+        <label for="name">Full name*:</label>
+        <br>
+        <input type="text" name="name" id="name" placeholder="First Name">
+        <br>
+        <label for="email">Email address</label>
+        <br>
+        <input type="email" name="email" id="email" placeholder="EMAIL_ADDRESS">
+        <br>
+        <label for="package">Select Tour Package</label>
+        <br>
+        <select name="package" id="package">
+            <option value="goa">Goa</option>
+            <option value="shimla">Shimla</option>
+            <option value="shrinagar">Shrinagar</option>
+        </select>
+        <br>
+        <label for="arrival">Arrival Date*:</label>
+        <br>
+        <input type="date" name="arrival" id="arrival">
+        <br>
+        <label for="persons">Number of persons*:</label>
+        <br>
+        <input type="text" name="persons" id="persons" placeholder="Number of Persons">
+        <br>
+        <label for="avail">What would you want to avail?*</label>
+        <br>
+        <input type="checkbox" id="boarding" name="boarding" value="Boarding">
+        <label for="boarding">Boarding</label>
+
+        <br>
+        <input type="checkbox" id="fooding" name="fooding" value="Fooding">
+        <label for="fooding">Fooding</label>
+
+        <br>
+        <input type="checkbox" id="sight" name="sight" value="Sight">
+        <label for="sight">Sight seeing</label>
+
+        <br>
+        <label for="coupon">Discount Coupon Code:</label>
+        <br>
+        <input type="text" name="coupon" id="coupon">
+
+        <br>
+        <label for="tac">Terms and Conditions:*</label>
+        <br>
+        <input type="radio" id="agree" name="tac" value="agree">
+        <label for="agree">I agree</label>
+
+        <input type="radio" id="disagree" name="tac" value="disagree">
+        <label for="disagree">I disagree</label>
+        <br>
+        <input type="submit" value="Complete reservation" name="btn1" id="btn1">
+
+    </form>
+
+</body>
+</html>

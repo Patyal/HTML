@@ -1,0 +1,272 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color:azure;
+}
+
+
+nav{
+    display:inline-block;
+    text-align:right;
+    background-color: gray;
+    width: 97.9%;
+    height: 20px;
+    padding: 35px;
+    
+    
+}
+
+.nav1 {
+    text-decoration: none !important; 
+    color: white;
+    padding: 20px;
+    
+}
+
+
+
+.nav1:hover {
+    background-color: gainsboro;
+    color: coral;
+}
+
+
+
+
+/* #about:hover {
+    background-color: gainsboro;
+    color: coral;
+} */
+
+#content{
+    padding: 20px;
+    padding-right: 40px;
+}
+
+/* #content:hover {
+    background-color: gainsboro;
+    color: coral;
+} */
+
+#bgimgandquotes{
+    position: relative;
+    text-align: center;
+}
+
+#bgimg1 {
+    background-image: url('images/imagefirst.jpg');
+    background-repeat: no-repeat;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.5;
+    /* display: flex; */
+
+}
+
+#quotes{
+    position: absolute;
+    top: 40%;
+    left: 32%;
+}
+
+.quotesspan{
+    font-size: 50px;
+    color: rgb(207, 33, 33);
+}
+
+.simg_about{
+    display: flex;
+    /* border: 1px solid red; */
+    margin: 10px;
+    background-color: rgb(57, 53, 53);
+    
+ }
+
+.secondimg {
+    height: 50%;
+    width: 50%;
+    margin-left: 30px;
+    
+} 
+
+.secondimg > img{
+    height: 70%;
+    width: 95%;
+    /* border: 3px solid green; */
+    border-radius: 10%;
+    
+}
+
+.about_section{
+    margin-top: 10%;
+    height: 100%;
+    width: 50%;
+    /* border: 3px solid green; */
+    color: white;
+}
+
+.about_section > h2{
+    text-align: center;
+}
+
+.about_section > p {
+    background-color:rgb(232, 133, 20);
+    padding: 10px;
+    border-radius: 10%;
+}
+
+.dep_serve{
+    display: flex;
+    margin-top: 10px;
+    /* border: 2px solid red; */
+    background-color: rgb(57, 53, 53);
+}
+
+.departements{
+    height: 50%;
+    width: 50%;
+    /* border: 2px solid green; */
+    margin-left: 20px;
+    color: white;
+}
+
+.services{
+    height: 50%;
+    width: 50%;
+    /* border: 2px solid blue; */
+    color: white;
+    
+}
+
+.o_doctors{
+    
+    background-color: rgb(57, 53, 53);
+    color: white;
+    display: flex;
+    margin-top: 10px;
+    /* height: 50%; */
+}
+
+.text_dr{
+    margin-left: 20px;
+    width: 50%;
+    /* height: 50%; */
+    /* border: 1px solid green; */
+}
+
+.img_doctors > img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 180px;
+    width: 300px;
+    /* border: 1px solid green; */
+}
+
+.pait_contact {
+    display: flex;
+    /* margin-top: 10px; */
+    background-color: rgb(57, 53, 53);
+    color: white;
+}
+
+.patient {
+    height: 50%;
+    width: 50%;
+    margin: 20px;
+}
+
+#name{
+    width: 100%;
+    height: 30px;
+    border-radius:0.5em;
+    margin-bottom: 10px;
+}
+
+#email{
+    width: 100%;
+    height: 30px;
+    border-radius:0.5em;
+    margin-bottom: 10px;
+}
+.sub_btn{
+    display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+#btn1{
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+    color: white;
+    height: 30px;
+    width: 50%;
+    border-radius: 0.5em;
+}
+
+.carr_job{
+    background-color: rgb(57, 53, 53);
+    color: white;
+    
+}
+
+.careers{
+    margin-left: 20px;
+    /* margin-top: 50px; */
+    padding-top: 10px;
+}
+
+.careers > p > a {
+    color: rgb(225, 103, 103);
+}
+
+.job_open{
+    margin-left: 20px;
+}
+
+.job_open > ul > li > a {
+    color: rgb(225, 103, 103);
+}
+
+.job_open > p > a{
+    color: rgb(225, 103, 103);
+}
+
+.qi_links{
+    display: flex;
+    background-color: black;
+    color: white;
+    
+}
+
+.q_links > p > a {
+    text-decoration: none !important;
+    color: white;
+}
+
+.q_links{
+    width: 50%;
+}
+
+.imp_links > p > a {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

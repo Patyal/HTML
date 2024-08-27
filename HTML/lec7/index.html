@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="#">
+        <label for="select1">Choose on Option</label>
+        <select name="select1" id="select1">
+            <option value="html">HTML</option>
+            <option value="css">CSS</option>
+            <option value="javascript">JavaScript</option>
+        </select>
+
+        <fieldset>
+            <legend>Submit Form</legend>
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name">
+            <br>
+            <label for="email">Email</label>
+            <input type="text" name="email" id="email">
+            <br>
+            <label for="pass">Password</label>
+            <input type="password" id="pass" name="pass">
+            <br>
+            <input type="submit" value="Submit">
+
+            <br>
+            <label for="url1">Enter URL</label>
+            <input type="url" pattern="https//.*" size="40" name="url1" id="url1">
+            <br>
+            <label for="file1">Select File</label>
+            <input type="file" name="file1" id="file1" accept="image/jpeg">
+
+        </fieldset>
+
+        <figure>
+            <img src="images/imagefirst.jpg" alt="demo" height="300px" width="300px">
+            <figcaption>Image</figcaption>
+        </figure>
+        <div>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/j8LHFJChi_g?si=hvPyZh8uxCx9xXwx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+
+        <div style="border: 2px solid red; color: white;" >
+            <span style="width: 33.1%; height: 320px; display: inline-block;background-color: red;">span1</span>
+            <span style="width: 33.1%; height: 320px; display: inline-block;background-color: brown;">span2</span>
+            <span style="width: 33.1%; height: 320px; display: inline-block;background-color: orchid;">span3</span>
+        </div>
+
+        <div style="border: 2px solid orange; display: flex; color: white;">
+            <div style="height: 200px; width:33.3%; background-color: aqua;">div1</div>
+            <div style="height: 200px; width:33.3%; background-color: red;">div2</div>
+            <div style="height: 200px; width:33.3%; background-color: green;">div3</div>
+        </div>
+    </form>
+</body>
+</html>
